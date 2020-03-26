@@ -1,0 +1,45 @@
+# app/tmp
+######################
+*.swp
+*.swo
+
+# app/tmp
+######################
+app/tmp/logs/*
+!app/tmp/logs/empty
+!app/tmp/cache/*/
+app/tmp/cache/models/*
+!app/tmp/cache/models/empty
+app/tmp/cache/persistent/*
+!app/tmp/cache/persistent/empty
+app/tmp/download/*
+!app/tmp/download/empty
+app/data/accounts/*
+!app/data/accounts/empty
+app/data/files/*
+!app/data/files/empty
+app/data/users/*
+!app/data/users/empty
+app/data/upload_files/*
+!app/data/upload_files/empty
+app/data/download_files/*
+!app/data/download_files/empty
+app/data/story_insights/*
+!app/data/story_insights/empty
+app/webroot/files/*
+!app/webroot/files/empty
+app/webroot/files/thumbnail/*
+!app/webroot/files/thumbnail/empty
+node_modules/*
+
+# for mac
+######################
+*.DS_Store
+
+# for eclipse
+######################
+.project
+.buildpath
+
+# for phpStorm
+.idea
